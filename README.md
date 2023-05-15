@@ -11,8 +11,6 @@ npm (gerenciador de pacotes do Node.js)
 ## Passo 1: Clonar o projeto
 Clone o projeto do repositório Git para o diretório de sua escolha usando o seguinte comando:
 
-bash
-Copy code
 git clone https://github.com/fernandovalenca/backend-upload-csv.git
 
 ## Passo 2: Configurar o arquivo .env
@@ -22,23 +20,18 @@ Renomeie o arquivo .env.example para .env.
 
 Abra o arquivo .env no seu codificador e atualize as informações de conexão do banco de dados, substituindo os espaços reservados pelas informações corretas:
 
-perl
-Copy code
 mysql://USER:PASSWORD@HOST:PORT/DATABASE
 Certifique-se de substituir USER, PASSWORD, HOST, PORT e DATABASE pelas informações corretas correspondentes ao seu ambiente.
 
 ## Passo 3: Instalar dependências
 No terminal, navegue até a pasta raiz do projeto e execute o seguinte comando para instalar as dependências necessárias:
 
-Copy code
 npm install
 Esse comando irá baixar e instalar todas as dependências listadas no arquivo package.json.
 
 ## Passo 4: Executar o projeto
 Após a conclusão da instalação das dependências, execute o seguinte comando para iniciar o projeto:
 
-arduino
-Copy code
 npm run dev
 Esse comando irá iniciar o servidor de desenvolvimento e executar o projeto. Verifique o terminal para visualizar qualquer mensagem de log ou erro.
 
